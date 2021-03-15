@@ -1,0 +1,62 @@
+body{
+    width: 470px;
+    margin: 0px auto;
+}
+h1{
+    height: 100px;
+    background-image: url(../images/logo@2x.png);
+    background-size: 325px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+h1#new{
+    height: 100px;
+    background-image: url(../images/h1_new.png);
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: 0px;
+}
+h1#comp{
+    height: 100px;
+    background-image: url(../images/h1_company.png);
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: 0px;
+}
+.slides img{
+    width: 470px;
+}
+#pc_nav{
+    height: 20px;
+    background-color: #31f1a1;
+    color: #ffffff;
+    font-size: 13px;
+    padding: 10px 0px 0px 65px;
+}
+#whatnew ul{
+    font-size: 14px;
+    line-height: 20px;
+}
+.pagetop{
+    margin: 10px 0px;
+}
+footer{
+    margin-top: 50px;
+    @media screen and (min-width: 768px) {}
+}
+#wrapper{
+    display: flex;
+}
+#whatnew{
+    width: 754px;
+}
+.sub{
+    display: flex;
+}
+.imgr{
+    margin-right: 10px;
+}
+footer{
+    margin-top: 50px;
+}
+

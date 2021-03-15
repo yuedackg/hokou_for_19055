@@ -1,0 +1,76 @@
+body{
+    width: 500px;
+    margin: 0px auto;
+}
+header{
+    background-image: url("../images/top-image.jpg");
+    background-repeat: no-repeat;
+}
+header ul{
+    display: flex;
+    background-color: #0000004a;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 0px;
+
+}
+header ul li{
+margin-right: 30px;
+}
+header ul li img{
+    padding: 5px 5px 0px 0px;
+}
+header ul li p{
+    padding: 0px 0px 0px 0px;
+}
+hr{
+    margin-bottom: 0px;
+    height: 1px;
+}
+footer{
+    font-size: 12px;
+    text-align: center;
+    margin: 20px 0px;
+}
+/* オーダーメイド　*/
+nav{
+    margin-bottom: 20px;
+}
+nav ul{
+    margin: 0px;
+    padding-left: 0px;
+    display: flex;　/* nav ul内の要素を横並びにする */
+}
+nav ul li{
+    list-style: none;
+    background-color: #00b7ff;
+    margin: 3px;
+    padding: 5px 15px;
+    color: #ffffff;
+    width: 131px;
+    border-radius: 5px;
+}
+/* 商品一覧　*/
+#product{
+    font-size: 16px;
+    font-weight: bold;
+}
+table img{
+    width: 230px;
+}
+table #table-text{
+    padding-right: 10px;
+    margin-top: 0px;
+}
+table #price{
+    text-align: right;
+    margin-right: 15px;
+}
+
+.main_right table img{
+    width: 175px;
+    margin: 0px 25px 30px 0px;
+}
+.main_right table th{
+    text-align: left;
+}

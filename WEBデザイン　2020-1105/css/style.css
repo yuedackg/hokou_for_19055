@@ -1,0 +1,75 @@
+body{
+	overflow-x: hidden;
+	color: #000;
+	background: #ffe03c
+}
+a{
+	color: #0066ff;
+	text-decoration: none;
+}
+a:hover, .active{
+  text-decoration: underline;
+}
+h1{
+  font-family: 'Sawarabi Mincho', sans-serif;
+  font-size: 62px;
+	font-weight: bolder;
+  transform: rotate(-15deg);
+}
+img{
+  width: 100%;
+}
+/* ハンバーガーメニュー
+------------------------------------------------------------*/
+#mainnav a{
+	color: #000;
+	font-family: 'Modern Antiqua', 'Noto Sans JP',serif;
+}
+a#menu{
+  display: inline-block;
+  position: relative;
+  top: -108px;
+  right: -17px;
+}
+#menuBtn{
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 35px;
+  height: 2px;
+  margin: -1px 0 0 -7px;
+  background: #000;
+  transition: .2s;
+}
+#menuBtn:before, #menuBtn:after{
+  display: block;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 35px
+  height: 2px;
+  background: #000;
+  transition: .3s;
+}
+#menuBtn:before{
+  margin-top: -7px;
+}
+#menuBtn:after{
+  margin-top: 5px;
+}
+a#menu .close{
+  background: transparent;
+}
+a#menu .close:before, a#menu .close:after{
+  margin-top: 0;
+}
+a#menu .close:before{
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+a#menu .close:after{
+  transform: rotate(-135deg);
+	-webkit-transform: rotate(-135deg);
+}
